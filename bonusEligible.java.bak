@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+class bonusEligible
+
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan =new Scanner(System.in);
+		System.out.println("enter your experiance");
+		System.out.println("enter your salary");
+			int exper_years=scan.nextInt();
+			if (exper_years>=5 && exper_years<=5 )			{
+			System.out.println(exper_years+"eligible for job" );
+			}
+			
+			else 
+			{
+			System.out.println(exper_years+"not eligible for job" );
+			System.out.println("enter your salary");
+			}
+	}
+}

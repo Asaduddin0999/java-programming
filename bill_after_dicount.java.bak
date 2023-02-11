@@ -1,0 +1,14 @@
+import java.util.Scanner;
+ class bill_after_dicount
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter bill amount ");
+		int n1 = scan.nextInt();
+		System.out.println("Enter dicount per ");
+		double n2 = scan.nextInt();
+		double result = n1*(1-n2/100);
+		System.out.println("total payable bill: "+result  );
+	}
+}
