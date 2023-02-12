@@ -1,0 +1,30 @@
+//36-WAP to count num of even and odd digits in the given num ?
+
+import java.util.Scanner;
+class  count_of_even_and_oddDigits
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter num To Say it's odd and even");
+		int num = scan.next.in();
+		int even= 0;
+		int odd= 0;
+		while (num!=0)
+		{
+			int id = num%10;
+			
+			if (id%2==0)
+			{
+				even++;
+			}
+			if (id%2==1)
+			{
+				odd++;
+			}
+			num=num/10;
+		}
+		System.out.println("number of even digits is :-"+even);
+		System.out.println("number of odd digits is :-"+odd);
+	}
+}
