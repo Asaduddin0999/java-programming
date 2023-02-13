@@ -1,0 +1,23 @@
+
+
+//02-user name user difine times 
+
+import java.util.Scanner;
+class 2userTime
+{
+	public static void main(String[] args) 
+{
+	Scanner scan = new Scanner (System.in);
+	System.out.println("inter your name  ");
+	String name =scan.next();
+	int n = scan.nextInt();
+	for (int i=1;i<=n ;i++ )
+	{
+		System.out.println (+i+")"+name);
+	}
+}
+}
+
+
+
+

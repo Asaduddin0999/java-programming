@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class  VoteEligible
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("eligible for voter");
+		int age = scan.nextInt();
+		int vote = age;
+		System.out.println("age eligible : "  +vote);
+
+		 
+
+
+	}
+}
