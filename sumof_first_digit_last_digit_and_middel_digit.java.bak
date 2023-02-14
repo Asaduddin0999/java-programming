@@ -1,0 +1,54 @@
+
+import java.util.Scanner;
+class  sumof_first_digit_last_digit_and_middel_digit
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a num");
+		int num =scan.nextInt();
+		int count=0;
+		int copy=num;
+		while (copy!=0)
+		{
+			count++;
+			copy/=10;
+		}
+
+			int x = 1;
+			int sum=0;
+			while (num!=0)
+			{
+				int ld =num%10;
+				if (x==1||x==count||x==((count/2)+1))
+				{
+				 sum+=ld;
+				}
+				num/=10;
+				x++;
+			}
+			System.out.println("sum of 1st , last and meddle digit is:"+sum);
+			int factorCount=0;
+			for (int i=1;i<=sum ;i++ )
+			{
+				if (sum%i==0)
+				{
+					factorCount++;
+				}
+			}
+				if (factorCount==2)
+				{
+					System.out.println("sum of 1st , last and meddle digit is prime ");
+				}
+				else 
+				{
+					System.out.println("sum of 1st , last and meddle digit is not prime ");
+				}
+			}
+			}
+
+		
+
+//1.42B
+
+// wap to print factars of given num in binary from 

@@ -1,0 +1,27 @@
+//42-wap to find sum of the factorial value of ther digits in the give num?
+
+import java.util.Scanner;
+class Sum_of_factorial_digits 
+{
+	public static void main(String[]args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter a num");
+		int num = scan.nextInt();
+		//int ld =1;
+		int sum=0;
+		while (num!=0)
+		{
+			int ld=num%10;
+			int fact =1;
+		
+			for (int i=1;i<=ld ;i++ )
+			{
+				fact = fact*i;
+			}
+		sum=sum+fact;
+		num=num/10;
+		}
+		System.out.println(sum);
+	}
+}

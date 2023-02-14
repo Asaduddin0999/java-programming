@@ -1,0 +1,9 @@
+//34- WAP sum of only even digits in the given num ?
+
+class  Sum_of_even_digits
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

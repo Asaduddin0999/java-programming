@@ -1,0 +1,11 @@
+//45-wap to chick wather a given sum is SPY num or not ?
+
+
+import java.util.Scanner;
+class  Sum_is_SPY_orNOT
+{
+	public static void main(String[] args) 
+	{
+	System.out.println("eeee");
+	}
+}

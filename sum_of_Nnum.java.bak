@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+class  sum_of_Nnum
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		int sum=0;
+		for (int i=1;true ;i++ )
+		{
+			int num= scan.nextInt();          //num=scan.nextInt()
+			char = scan.next().charAt(0);
+			if (ch=='+')
+			{
+				sum=sum+num;
+			}                                    //char=scan.next().charAt(0);
+			else if (ch=='=')
+			{
+				sum=sum+num;
+				break;
+			}
+		}
+		System.out.println("sum is :"+sum);
+	}
+}
