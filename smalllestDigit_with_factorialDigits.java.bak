@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class  smalllestDigit_with_factorialDigits
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan= new Scanner(System.in);
+		int num= scan.nextInt();
+		int smallest =9;
+		while (num!=0)
+		{
+			int ld = num%10;
+			if (ld<smallest)
+			{
+				smallest=ld;
+			}
+			num=num/10;
+		}
+
+		System.out.println("smallest digit is:"+smallest );
+		int factorial =1;
+		for (int i=1;i<=smallest ;i++ )
+		{
+			factorial=factorial*i;
+		}
+		System.out.println("smallest digit is:"+factorial );
+	}
+}

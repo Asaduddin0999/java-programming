@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+class  scanner_of_LCM
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter  x value ");
+		int x=scan.nextInt();
+		System.out.println("Enter y value ");
+		int y=scan.nextInt();
+		int lcm=0;
+		//int i=1;
+		for (int i=1;true ;i++ )
+		{
+			lcm=i;
+				break;
+		}
+		System.out.println("your given value of x,y there LCM is :"+lcm);
+	}
+}

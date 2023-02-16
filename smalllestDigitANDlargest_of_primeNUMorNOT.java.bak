@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+class  smalllestDigitANDlargest_of_primeNUMorNOT
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan= new Scanner(System.in);
+		int num= scan.nextInt();
+		int smallest =9;
+		int largest=0;
+		while (num!=0)
+		{
+			int ld = num%10;
+			if (ld<smallest)
+			{
+				smallest=ld;
+			}
+			if (ld>1)
+			{
+				largest=ld;
+			}
+			num=num/10;
+		}
+
+		System.out.println("smallest digit is:"+smallest );
+		System.out.println("largest of smalllest digit is:"+largest );
+		int sum=smallest+1;
+		int count =0;
+		for (int i=1;i<=sum ;i++ )
+		{
+			if (sum%i==0)
+			{
+				count++;
+			}
+		}
+		if (count==2)
+		{
+		System.out.println("prime  :"+sum );
+		}
+		else
+		{
+		System.out.println("not prime:"+sum );
+		}
+	}
+}
+ 
+
+
+
+//05-Wap to print secoend smallest digit in the given num?

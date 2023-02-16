@@ -1,0 +1,66 @@
+import java.util.Scanner;
+class  simpleCalculator
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner ( System.in);
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		System.out.println("                   Welcom");
+		System.out.println("              TO simple calculator");
+		System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+		System.out.println(" "+(char)4+" Enter 1 for Addition calculator");
+		System.out.println(" "+(char)4+" Enter 2 for subraction calculator");
+		System.out.println(" "+(char)4+" Enter 3 for multiplicaation calculator");
+		System.out.println(" "+(char)4+" Enter 4 for divition calculator");
+		System.out.println(" "+(char)4+" Enter 5 for quar calculator");
+		System.out.println(" "+(char)3+" Enter your choice");
+		int choice = scan.nextInt();
+		switch (choice)
+		{
+		case 1 : {
+					System.out.println( "you have selected addition calculator");
+					System.out.println("enter first number");
+					int n1 = scan.nextInt();
+					System.out.println(" enter secound number");
+					int n2 = scan.nextInt();
+					System.out.println(" addition of two numbers "+n1+" + "+n2+ " = " +(n1+n2));
+
+		}
+		break;
+		case 2 : {
+					System.out.println( "you have selected sub calculator");
+					System.out.println("enter first number");
+					int n1 = scan.nextInt();
+					System.out.println(" enter secound number");
+					int n2 = scan.nextInt();
+					System.out.println(" addition of two numbers "+n1+" and "+n2+ "=" +(n1-n2));
+				}
+		break;
+		case 3 : {
+					System.out.println( "you have selected multi calculator");
+					System.out.println("enter first number");
+					int n1 = scan.nextInt();
+					System.out.println(" enter secound number");
+					int n2 = scan.nextInt();
+					System.out.println(" addition of two numbers "+n1+" and "+n2+ "is"  +(n1*n2));
+				}
+		case 4 : {
+					System.out.println( "you have selected div calculator");
+					System.out.println("enter first number");
+					int n1 = scan.nextInt();
+					System.out.println(" enter secound number");
+					int n2 = scan.nextInt();
+					System.out.println(" addition of two numbers "+n1+" and "+n2+ "is"  +(n1/n2));
+				}
+		case 5 : {
+					System.out.println( "you have selected qud calculator");
+					System.out.println("enter first number");
+					int n1 = scan.nextInt();
+					System.out.println(" enter secound number");
+					int n2 = scan.nextInt();
+					System.out.println(" addition of two numbers "+n1+" and "+n2+ "is"  +(n1+n2));
+		
+				}
+		}
+}
+}

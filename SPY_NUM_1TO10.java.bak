@@ -1,0 +1,19 @@
+//46-wap to print SPY num from  1 to 10 with SLN?
+
+ class SPY_NUM_1TO10
+	 {
+    public static void main(String[] args) 
+		{
+		int sln=1;
+        for (int i = 1; i <= 10; i++) 
+			{
+            if (i % 3 == 0) 
+			 
+			else 
+			{
+                System.out.println(sln+")"+i);
+				sln++;
+            }
+        }
+    }
+}

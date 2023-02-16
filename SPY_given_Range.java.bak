@@ -1,0 +1,26 @@
+//47- WAP to print SPY num in the given range ?
+
+import java.util.Scanner;
+
+ class SPY_given_Range
+	 {
+      public static void main(String[] args) 
+		  {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the starting number: ");
+        int start = input.nextInt();
+        System.out.print("Enter the ending number: ");
+        int end = input.nextInt();
+
+        for (int i = start; i <= end; i++)
+			{
+            if (i % 3 == 0) 
+				{
+                System.out.println("SPY");
+            } else 
+				{
+                System.out.println(i);
+            }
+        }
+    }
+}
