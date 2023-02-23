@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class project_1forMain 
+
+{
+	public static void main(String[] args) 
+	{
+		employeeService service=new employeeservice();
+
+		System.out.println("************Welcome To Employee Managment System ************"
+		+"\n1 add employee"
+		+"\n2 view employee"
+		+"\n3 update employee"
+		+"\n4 delet employee"
+		+"\n4 viwe all employee"
+		+"\n6 exist");
+
+		}
+		public static void main (String [] arg){
+			Scanner scan =new Scanner(System.in);
+			 do
+			 {
+				 System.out.println();
+			 }
+			 while ();
+}
+
+}
+
+

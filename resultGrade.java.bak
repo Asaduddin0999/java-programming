@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class resultGrade
+{
+	public static void main (String[]args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter your grade");
+		char grade = scan.next().charAt(0);
+
+	 if (grade=='A'|| grade =='a')
+		{
+		System.out.println("your fist in class");
+		}
+	else if (grade=='B' || grade =='b')
+		{
+		System.out.println("your second in class");
+		}
+	else if (grede=='C'|| grade =='c')
+		{
+		System.out.println("your thard in class");
+		}
+	else if (grade=='D'|| grade =='d')
+		{
+		System.out.println("you just pass");
+		}
+	else if (grade=='E'|| grade =='e')
+		{
+		System.out.println("your fail");
+		}
+	}
+}

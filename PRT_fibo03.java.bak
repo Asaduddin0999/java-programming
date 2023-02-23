@@ -1,0 +1,25 @@
+//02-Wap tp print Fibonacci terms which are less then 5000?
+import java.util.Scanner;
+class  PRT_fibo02
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner (System.in);
+		System.out.print("Enter A value:");	
+		int a=scan.nextInt();
+		System.out.print("Enter Bvlaue:");
+		int b=scan.nextInt();
+		System.out.print("Enter Sum vlue:");
+		int sum=scan.nextInt();
+		int sln=1;
+		for (int i=1; sum<=5000 ;i++ )
+		{
+			System.out.println(sum);
+			a=b;
+			b=sum;
+			sum=a+b;
+			
+		}
+		//System.out.println(sln+")"+sum);
+	}
+}

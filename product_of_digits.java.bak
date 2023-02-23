@@ -1,0 +1,21 @@
+//33-product of the digit of a given number
+
+import java.util.Scanner ;
+class  product_of_digits
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Enter number of Products");
+		int id = scan.nextInt();
+		int product=1;
+		int num=0;
+		while (num!=0)
+		{
+			int id =num%10;
+			num = num/10;
+			product=product*id;
+		}
+		System.out.println(product);
+	}
+}

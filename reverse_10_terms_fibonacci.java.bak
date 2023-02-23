@@ -1,0 +1,31 @@
+//WAP to print first 10th teram revers it in fibonacci series ?
+
+class  reverse_10_terms_fibonacci
+{
+	public static void main(String[] args) 
+	{
+		int sln=1;
+		int a=0;
+		int b=1;
+		int sum=0;
+		for (int i=1;i<10 ;i++ )
+		{
+			a=b;
+			b=sum;
+			sum=a+b;
+		}
+		for (int i=1;i<=10 ;i++ )
+		{
+			System.out.println(sln+")"+sum);
+			sln++;
+			sum=b;
+			b=a;
+			a=sum-b;
+		}
+		//System.out.println("Hello World!");
+	}
+}
+
+
+
+//https://www.youtube.com/watch?v=c6gV-utN-vY
